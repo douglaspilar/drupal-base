@@ -1,0 +1,49 @@
+<?php
+function _default_menu() {
+    $items['mapa-do-site'] = array(
+        'title'            => 'Mapa do site',
+        'page callback'    => '_default_page_site_map',
+        'access callback'  => TRUE,
+        'type'             => MENU_CALLBACK
+    );
+
+    $items['pagina-nao-encontrada'] = array (
+        'title'            => 'Oops! Página não encontrada.',
+        'page callback'    => '_default_page_not_found',
+        'access callback'  => TRUE,
+        'type'             => MENU_CALLBACK
+    );
+
+    $items['acesso-negado'] = array (
+        'title'            => 'Acesso negado',
+        'page callback'    => '_default_page_access_danied',
+        'access callback'  => TRUE,
+        'type'             => MENU_CALLBACK
+    );
+
+    return $items;
+}
+
+function _default_theme() {
+    return array('_default_site_map' => array('template' => 'site-map'));
+}
+
+function _default_page_site_map() {
+    return theme('_default_site_map');
+}
+
+function _default_page_not_found() {
+    return "<h4>Tente fazer uma busca utilizando o campo na barra superior ou utilize o Mapa do Site abaixo.</h4>" . theme('_default_site_map');
+}
+
+function _default_page_access_danied() {
+    return theme('_default_site_map');
+}
+
+/*function _default_form_alter(&$form, &$form_state, $form_id) {
+    switch ($form_id) :
+        case 'webform_client_form_3' : //solicite seu _default
+           
+        break;
+    endswitch;
+}*/

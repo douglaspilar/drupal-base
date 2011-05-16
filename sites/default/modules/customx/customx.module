@@ -1,0 +1,32 @@
+<?php
+function pr($array_or_object){
+    echo '<pre>',print_r($array_or_object,1),'</pre>';
+}
+
+function in_url($param){
+    $clean_param = custom_sanitize($param);
+    return preg_match('/(' . $param . ')/i',$_SERVER['QUERY_STRING']);
+}
+
+function urlfy($string){
+    return strtolower(custom_sanitize($string));
+}
+
+function custom_sanitize($string){
+    $patterns = array('/Ã|Á|À|Â|ã|á|à|â/i','/É|Ê|é|ê/i','/Í|í/i','/Ô|Õ|Ó|ô|õ|ó/i','/Ú|Ü|ú|ü/i','/ç/i','/\s/');
+    $replaces = array('a','e','i','o','u','c','-');
+    return preg_replace($patterns,$replaces,strtolower($string));
+}
+
+function a() {
+    return func_get_args();
+}
+
+function aa() {
+    $ks = $vs = array();
+    foreach(func_get_args() as $i => $v) if($i % 2) $vs[] = $v; else $ks[] = $v;
+    if(count($ks) > count($vs)) array_push($vs,'');
+    return array_combine($ks,$vs);
+}
+
+drupal_add_js(drupal_get_path('module', 'jquery_plugin') .'/jquery.validate.min.js');

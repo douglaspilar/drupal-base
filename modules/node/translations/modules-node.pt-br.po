@@ -1,0 +1,32 @@
+# Portuguese, Brazil translation of Drupal (all releases)
+# Copyright (c) 2010 by the Portuguese, Brazil translation team
+# Generated from files:
+#  node.admin.inc,v 1.88 2010/01/13 23:30:43 dries
+#  node.module,v 1.1216 2010/01/15 10:59:21 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (all releases)\n"
+"POT-Creation-Date: 2010-06-14 12:18+0000\n"
+"PO-Revision-Date: 2010-03-14 15:44+0000\n"
+"Language-Team: Portuguese, Brazil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/node/node.admin.inc:103
+msgid "term"
+msgstr "termo"
+
+#: modules/node/node.module:2156
+msgid "Show all content"
+msgstr "Exibir todo o conteúdo"
+
+#: modules/node/node.module:2386
+msgid "Change the default front page"
+msgstr ""
+
+#: modules/node/node.module:2496
+msgid "Only in the term(s)"
+msgstr ""

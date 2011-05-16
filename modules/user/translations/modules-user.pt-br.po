@@ -1,0 +1,250 @@
+# Portuguese, Brazil translation of Drupal (all releases)
+# Copyright (c) 2010 by the Portuguese, Brazil translation team
+# Generated from files:
+#  user.module,v 1.1112 2010/01/14 19:21:55 dries
+#  user.install,v 1.35 2010/01/09 22:07:57 webchick
+#  user.module,v 1.1126 2010/02/17 08:54:51 dries
+#  user.install,v 1.45 2010/04/13 15:15:07 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (all releases)\n"
+"POT-Creation-Date: 2010-06-14 12:19+0000\n"
+"PO-Revision-Date: 2010-05-01 17:48+0000\n"
+"Language-Team: Portuguese, Brazil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/user/user.module:2250
+msgid "Account details for [user:name] at [site:name]"
+msgstr "Detalhes da conta para [user:name] em [site:name]"
+
+#: modules/user/user.module:2253
+msgid ""
+"[user:name],\n"
+"\n"
+"Thank you for registering at [site:name]. You may now log in to [site:login-"
+"url] using the following username and password:\n"
+"\n"
+"username: [user:name]\n"
+"password: [user:password]\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"[user:one-time-login-url]\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to [user:edit-url] so you can "
+"change your password.\n"
+"\n"
+"\n"
+"--  [site:name] team"
+msgstr ""
+
+#: modules/user/user.module:2273
+msgid "An administrator created an account for you at [site:name]"
+msgstr "Um administrador criou uma conta para você no site [site:name]"
+
+#: modules/user/user.module:2276
+msgid ""
+"[user:name],\n"
+"\n"
+"A site administrator at [site:name] has created an account for you. You may "
+"now log in to [site:login-url] using the following username and password:\n"
+"\n"
+"username: [user:name]\n"
+"password: [user:password]\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"[user:one-time-login-url]\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to [user:edit-url] so you can "
+"change your password.\n"
+"\n"
+"\n"
+"--  [site:name] team"
+msgstr ""
+
+#: modules/user/user.module:2297
+msgid "Account details for [user:name] at [site:name] (pending admin approval)"
+msgstr ""
+"Detalhes da conta para [user:name] em [site:name] (aguardando aprovação do "
+"administrador)"
+
+#: modules/user/user.module:2300
+msgid ""
+"[user:name],\n"
+"\n"
+"Thank you for registering at [site:name]. Your application for an account is "
+"currently pending approval. Once it has been approved, you will receive "
+"another e-mail containing information about how to log in, set your "
+"password, and other details.\n"
+"\n"
+"\n"
+"--  [site:name] team"
+msgstr ""
+
+#: modules/user/user.module:2308
+msgid ""
+"[user:name] has applied for an account.\n"
+"\n"
+"[user:edit-url]"
+msgstr ""
+
+#: modules/user/user.module:2314
+msgid "Replacement login information for [user:name] at [site:name]"
+msgstr ""
+
+#: modules/user/user.module:2317
+msgid ""
+"[user:name],\n"
+"\n"
+"A request to reset the password for your account has been made at [site:"
+"name].\n"
+"\n"
+"You may now log in to [site:uri-brief] by clicking on this link or copying "
+"and pasting it in your browser:\n"
+"\n"
+"[user:one-time-login-url]\n"
+"\n"
+"This is a one-time login, so it can be used only once. It expires after one "
+"day and nothing will happen if it's not used.\n"
+"\n"
+"After logging in, you will be redirected to [user:edit-url] so you can "
+"change your password."
+msgstr ""
+
+#: modules/user/user.module:2331
+msgid "Account details for [user:name] at [site:name] (approved)"
+msgstr "Detalhes da conta para [user:name] em [site:name] (aprovado)"
+
+#: modules/user/user.module:2334
+msgid ""
+"[user:name],\n"
+"\n"
+"Your account at [site:name] has been activated.\n"
+"\n"
+"You may now log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"[site:login-url]\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to [user:edit-url] so you can "
+"change your password.\n"
+"\n"
+"Once you have set your own password, you will be able to log in to [site:"
+"login-url] in the future using:\n"
+"\n"
+"username: [user:name]"
+msgstr ""
+
+#: modules/user/user.module:2352
+msgid "Account details for [user:name] at [site:name] (blocked)"
+msgstr "Detalhes da conta para [user:name] em [site:name] (bloqueado)"
+
+#: modules/user/user.module:2355
+msgid ""
+"[user:name],\n"
+"\n"
+"Your account on [site:name] has been blocked."
+msgstr ""
+
+#: modules/user/user.module:2359
+msgid "Account cancellation request for [user:name] at [site:name]"
+msgstr "Requisição de cancelamento de conta por [user:name] em [site:name]"
+
+#: modules/user/user.module:2362
+msgid ""
+"[user:name],\n"
+"\n"
+"A request to cancel your account has been made at [site:name].\n"
+"\n"
+"You may now cancel your account on [site:url-brief] by clicking this link or "
+"copying and pasting it into your browser:\n"
+"\n"
+"[user:cancel-url]\n"
+"\n"
+"NOTE: The cancellation of your account is not reversible.\n"
+"\n"
+"This link expires in one day and nothing will happen if it is not used."
+msgstr ""
+"[user:name],\r\n"
+"\r\n"
+"Uma requisição para cancelar sua conta foi realizada em [site:name].\r\n"
+"\r\n"
+"Você pode cancelar sua conta agora em [site:url-brief] clicando neste link "
+"ou copiando e colando-o em seu navegador:\r\n"
+"\r\n"
+"\r\n"
+"[user:cancel-url]\r\n"
+"\r\n"
+"NOTA: O cancelamento de sua conta é irreversível.\r\n"
+"\r\n"
+"Este link expira em um dia e nada acontecerá se ele não for utilizado."
+
+#: modules/user/user.module:2376
+msgid "Account details for [user:name] at [site:name] (canceled)"
+msgstr "Detalhes de conta para [user:name] em [site:name] (cancelado)"
+
+#: modules/user/user.module:2379
+msgid ""
+"[user:name],\n"
+"\n"
+"Your account on [site:name] has been canceled."
+msgstr ""
+"[user:name],\r\n"
+"\r\n"
+"Sua conta no site [site:name] foi cancelada."
+
+#: modules/user/user.module:1465
+msgid "Manage user accounts"
+msgstr "Gerenciar contas de usuário"
+
+#: modules/user/user.module:1490
+msgid "People and permissions"
+msgstr "Pessoas e permissões"
+
+#: modules/user/user.module:1491
+msgid "Configure user accounts, roles and permissions."
+msgstr "Configurar contas de usuário, papéis e permissões."
+
+#: modules/user/user.install:416
+msgid "Foriegn key: {file}.fid of user's picture."
+msgstr ""
+
+#: modules/user/user.module:2403
+msgid ""
+"!user-name-token,\n"
+"\n"
+"Your account at !site-name-token has been activated.\n"
+"\n"
+"You may now log in by clicking this link or copying and pasting it into your "
+"browser:\n"
+"\n"
+"!site-login-url-token\n"
+"\n"
+"This link can only be used once to log in and will lead you to a page where "
+"you can set your password.\n"
+"\n"
+"After setting your password, you will be able to log in at !site-login-url-"
+"token in the future using:\n"
+"\n"
+"username: !user-name-token\n"
+"password: Your password\n"
+"\n"
+"--  !site-name-token team"
+msgstr ""
+
+#: modules/user/user.install:486
+msgid "Foreign key: {file_managed}.fid of user's picture."
+msgstr ""

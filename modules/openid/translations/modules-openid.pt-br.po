@@ -1,0 +1,18 @@
+# Portuguese, Brazil translation of Drupal (all releases)
+# Copyright (c) 2010 by the Portuguese, Brazil translation team
+# Generated from file: openid.install,v 1.10 2010/01/09 23:03:21 webchick
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (all releases)\n"
+"POT-Creation-Date: 2010-06-14 12:19+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Portuguese, Brazil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/openid/openid.install:82
+msgid "BC Match library"
+msgstr ""

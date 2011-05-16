@@ -1,0 +1,4 @@
+name = Verdecard
+description = Fornece customizações para o site
+core = 6.x
+version = 6.x-1.1

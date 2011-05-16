@@ -1,0 +1,17 @@
+// $Id: CHANGELOG.txt,v 1.1.2.4 2011/01/12 02:35:41 jwhat Exp $
+
+CSS Browser Selector 6.x-1.1, 2011-01-11
+--------------------------------------
+Release of version 6.x-1.1 containing new features.
+
+CSS Browser Selector 6.x-1.x-dev, 2011-01-10
+--------------------------------------
+by jwhat: Added admin setting to specify the class variable(s) that are to be used in the theme; added admin setting to use JS which is required when pages are cached.
+
+CSS Browser Selector 6.x-1.x-dev, 2011-01-06
+--------------------------------------
+#1017394 by jwhat: Removing dependency on out-dated 3rd-party PHP file and replacing it with an updated version provided by ximo. 
+
+CSS Browser Selector 6.x-1.0, 2010-12-31
+--------------------------------------
+Initial release of css_browser_selector module.

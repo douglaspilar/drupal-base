@@ -1,0 +1,68 @@
+# Portuguese, Brazil translation of Drupal (all releases)
+# Copyright (c) 2010 by the Portuguese, Brazil translation team
+# Generated from files:
+#  locale.datepicker.js,v 1.1 2010/04/29 05:15:43 webchick
+#  locale.admin.inc,v 1.13 2010/05/11 10:49:37 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (all releases)\n"
+"POT-Creation-Date: 2010-06-14 12:18+0000\n"
+"PO-Revision-Date: 2010-06-04 19:56+0000\n"
+"Language-Team: Portuguese, Brazil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/locale/locale.datepicker.js:0
+msgid "Next"
+msgstr "Próximo"
+
+#: modules/locale/locale.datepicker.js:0
+msgid "Prev"
+msgstr "Anterior"
+
+#: modules/locale/locale.datepicker.js:0
+msgid "Today"
+msgstr "Hoje"
+
+#: modules/locale/locale.datepicker.js:0
+msgid "Su"
+msgstr "Dom"
+
+#: modules/locale/locale.datepicker.js:0
+msgid "Mo"
+msgstr "Seg"
+
+#: modules/locale/locale.datepicker.js:0
+msgid "Tu"
+msgstr "Ter"
+
+#: modules/locale/locale.datepicker.js:0
+msgid "We"
+msgstr "Qua"
+
+#: modules/locale/locale.datepicker.js:0
+msgid "Th"
+msgstr "Qui"
+
+#: modules/locale/locale.datepicker.js:0
+msgid "Fr"
+msgstr "Sex"
+
+#: modules/locale/locale.datepicker.js:0
+msgid "Sa"
+msgstr "Sáb"
+
+#: modules/locale/locale.datepicker.js:0
+msgid "mm/dd/yy"
+msgstr "mm/dd/yy"
+
+#: modules/locale/locale.admin.inc:348
+msgid "%field may only contain characters a-z, underscores, or hyphens."
+msgstr ""
+
+#: modules/locale/locale.admin.inc:351,354
+msgid "%field cannot contain any markup."
+msgstr ""

@@ -1,0 +1,37 @@
+# Portuguese, Brazil translation of Drupal (all releases)
+# Copyright (c) 2010 by the Portuguese, Brazil translation team
+# Generated from file: filter.module,v 1.314 2009/12/28 21:52:13 webchick
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (all releases)\n"
+"POT-Creation-Date: 2010-06-14 12:19+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Portuguese, Brazil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/filter/filter.module:25
+msgid ""
+"Users with access to more than one text format can use the <em>Text format</"
+"em> fieldset to choose between available text formats when creating or "
+"editing multi-line content. Administrators can determine the text formats "
+"available to each user role, and control the order of formats listed in the "
+"<em>Text format</em> fieldset on the <a href=\"@text-formats\">Text formats "
+"page</a>."
+msgstr ""
+
+#: modules/filter/filter.module:30
+msgid ""
+"Control which HTML tags and other formatting can be used for text input. "
+"Don't allow too much formatting for untrusted users. This can be a serious "
+"security risk."
+msgstr ""
+
+#: modules/filter/filter.module:31
+msgid ""
+"Text formats are presented in the order you arrange them below. Configure a "
+"text format to change its behavior."
+msgstr ""
